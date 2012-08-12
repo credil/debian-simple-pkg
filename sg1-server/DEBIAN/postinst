@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ configure = "$1" ]; then
+    : setup python stuff.
+    virtualenv=/data/pythonenv/CLIENTPORTAL
+    mkdir -p /data/pythonenv
+    virtualenv --no-site-packages ${virtualenv}
+    ${virtualenv}/bin/pip install -E ${virtualenv} -r /etc/novavision/sg1-requirements.txt
+fi
+

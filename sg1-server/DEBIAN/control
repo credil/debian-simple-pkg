@@ -1,0 +1,10 @@
+Package: novavision-sg1-server
+Version: $(VER)
+Section: novavision
+Priority: optional
+Architecture: all
+Provides: novavision-sg1-server
+Depends: python2.6, apache2, python-virtualenv, libjpeg62-dev, zlib1g-dev,
+        libpq-dev, python-psycopg2
+Maintainer: <mcr@novavision.ca>
+Description: Installs a new system for use with the SG1 sensor.

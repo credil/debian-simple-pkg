@@ -1,0 +1,9 @@
+Django==1.1.2
+PIL==1.1.7
+South==0.7.3
+django-debug-toolbar-django13==0.8.4
+psycopg2==2.3.0
+reportlab==2.5
+wsgiref==0.1.2
+django-filter==0.5.3
+

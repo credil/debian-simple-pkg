@@ -1,0 +1,9 @@
+Package: credil-hello-ruby
+Version: $(VER)
+Section: novavision
+Priority: optional
+Architecture: all
+Provides: credil-hello-ruby
+Depends: ruby
+Maintainer: <mcr@novavision.ca>
+Description: Says hello.
